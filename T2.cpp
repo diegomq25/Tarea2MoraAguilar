@@ -12,8 +12,8 @@ using namespace std;
 
 unsigned time0, time1, time2,time3;
 
-int elementos[100000];
-int elementos2[100000];
+long long int elementos[100000];
+long long int elementos2[100000];
 
 void agregar();
 void cuadrado();
