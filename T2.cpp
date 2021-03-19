@@ -60,7 +60,7 @@ void agregar() {
 
 void cuadrado() {
 	unsigned t0, t1;
-	for (int i = 0;i <= 10000;i++) {
+	for (int i = 0;i <= 100000;i++) {
 		elementos[i] = pow(elementos2[i], 2);
 		cout << elementos2[i] << " AL CUADRADO = " << elementos[i] << endl;
 	}
@@ -68,7 +68,7 @@ void cuadrado() {
 }
 
 void cuadrado2() {
-	for (int i = 0;i <= 2500;i++) {
+	for (int i = 0;i <= 25000;i++) {
 		elementos[i] = pow(elementos2[i], 2);
 		cout << elementos2[i] << " AL CUADRADO = " << elementos[i] << endl;
 	}
@@ -76,7 +76,7 @@ void cuadrado2() {
 }
 
 void cuadrado3() {
-	for (int i = 2501;i <= 5000;i++) {
+	for (int i = 25001;i <= 50000;i++) {
 		elementos[i] = pow(elementos2[i], 2);
 		cout << elementos2[i] << " AL CUADRADO = " << elementos[i] << endl;
 	}
@@ -84,7 +84,7 @@ void cuadrado3() {
 }
 
 void cuadrado4() {
-	for (int i = 5001;i <= 7500;i++) {
+	for (int i = 50001;i <= 75000;i++) {
 		elementos[i] = pow(elementos2[i], 2);
 		cout << elementos2[i] << " AL CUADRADO = " << elementos[i] << endl;
 	}
@@ -92,7 +92,7 @@ void cuadrado4() {
 }
 
 void cuadrado5() {
-	for (int i = 7501;i <= 10000;i++) {
+	for (int i = 75001;i <= 100000;i++) {
 		elementos[i] = pow(elementos2[i], 2);
 		cout<<elementos2[i]<<" AL CUADRADO = "<<elementos[i]<<endl;
 	}
