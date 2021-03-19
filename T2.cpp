@@ -6,7 +6,7 @@
 #include <math.h>
 #include <thread>
 #include <ctime>
-#include<pthread.h>
+
 
 using namespace std;
 
